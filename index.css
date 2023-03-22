@@ -86,7 +86,12 @@ body{
     margin-left: 100px;
     width: 500px;
     top: 10px;
-
+    animation: image 2s infinite;
+}
+@keyframes image{
+    100%{
+        transform: rotateY(360deg);
+    }
 }
 .but{
     margin-left: 200px;
